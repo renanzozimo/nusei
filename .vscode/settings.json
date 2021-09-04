@@ -1,0 +1,37 @@
+{
+  // EDITOR vs ESLINT
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  // EDITOR
+  "editor.rulers": [70],
+  "editor.wordWrapColumn": 70,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  // HTML
+  "html.format.enable": true,
+  "html.format.maxPreserveNewLines": 1,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.wrapLineLength": 70,
+  "html.format.indentHandlebars": true,
+  "html.format.endWithNewline": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  // ESLINT: Helps vscode to find eslint files from project root folder
+  "eslint.workingDirectories": ["./"]
+}
