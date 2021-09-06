@@ -25,7 +25,7 @@
   // HTML
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 1,
-  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 70,
   "html.format.indentHandlebars": true,
   "html.format.endWithNewline": false,
